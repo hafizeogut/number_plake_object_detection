@@ -1,0 +1,9 @@
+path: /home/hafizeogut/Desktop/number_plake_object_detection/datasets/
+
+test: images/test
+train: images/train
+val: images/valid
+
+nc : 1
+
+names: ["number plate"]
