@@ -1,0 +1,154 @@
+{
+    "os": "Linux-6.5.0-44-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-07-30T08:02:30.077811",
+    "startedAt": "2024-07-30T08:02:28.863088",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "task=detect",
+        "mode=train",
+        "model=yolov8n.pt",
+        "data=number-plate.yaml",
+        "epochs=100",
+        "name=number_plak_detect"
+    ],
+    "state": "running",
+    "program": "/home/hafizeogut/.local/bin/yolo",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/hafizeogut/number_plake_object_detection.git",
+        "commit": "1c09335e214cf141ddd533b5a24182f5b80ac3ed"
+    },
+    "email": "hafizecemileogut@gmail.com",
+    "root": "/home/hafizeogut/Desktop/number_plake_object_detection",
+    "host": "hafizeogut",
+    "username": "hafizeogut",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 1142.581,
+        "min": 400.0,
+        "max": 4800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1678.724,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 1470.589,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 853.011,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 1484.677,
+            "min": 400.0,
+            "max": 5400.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 5400.0
+        },
+        {
+            "current": 1018.112,
+            "min": 400.0,
+            "max": 5400.0
+        },
+        {
+            "current": 986.113,
+            "min": 400.0,
+            "max": 5400.0
+        },
+        {
+            "current": 1180.781,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2280.071,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 902.204,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 439.966,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 1210.303,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 961.066,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1258.358,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 937.3305015563965,
+            "used": 34.95476150512695
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 31.04425048828125
+    }
+}
